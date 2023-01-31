@@ -1,0 +1,23 @@
+include the rest framework and the app in the settings 
+include the url file in the main url file by using the include {first import the include }
+
+---------------
+install the package and change the middleware and the setting file
+in the react part add the proxy to the port of the django backend 
+now don't add anything in the header related to the cors 
+add the crsf expemt on that view 
+
+30/Jan/2023 22:19:58] "OPTIONS /user/ HTTP/1.1" 200 12
+[30/Jan/2023 22:21:00] "OPTIONS /user/ HTTP/1.1" 200 12
+[30/Jan/2023 22:21:25] "OPTIONS /user/ HTTP/1.1" 200 12
+[30/Jan/2023 22:23:17] "OPTIONS /user/ HTTP/1.1" 200 12
+
+what the pip installed thing do 
+middleware addition 
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+]  --> what does this do 
+
+what is the role of the proxy here 
+why not work withou tthe crsf expemt 
+why not to include the cors related thing in the headers 
