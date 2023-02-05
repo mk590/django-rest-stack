@@ -21,3 +21,7 @@ CORS_ORIGIN_WHITELIST = [
 what is the role of the proxy here 
 why not work without tthe crsf expemt 
 why not to include the cors related thing in the headers 
+Will the form's power of widget rendering be helpful in the rest ?
+to create a relationship on a model that has not yet been defined, you can use the name of the model
+
+error SyntaxError: Unexpected token 'r', "requirednullinvalid" is not valid JSON
